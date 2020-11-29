@@ -1,0 +1,143 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat,Philosopher,Roboto;
+    
+}
+.right-side{
+	background-image: url(img/background.png);
+	background-size: cover;
+	background-position: center;
+	background-color: #ddd;
+}
+
+
+/*========================   Nav manu ==================*/
+
+.left-side {
+  background: #222;
+  height: 100%;
+  width: 20%;
+  position: fixed;
+}
+.right-side {
+  width: 80%;
+  margin-left: 20%;
+  height: 100%;
+  display: table;
+  position: relative;
+  z-index: 2;
+}
+html,body {
+  height: 100%;
+}
+.right-side-warp {
+  display: table-cell;
+  vertical-align: middle;
+  color: #fff;
+  font-size: 23px;
+  padding: 10%;
+}
+.right-side::after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: #333;
+  content: "";
+  z-index: -1;
+  opacity: .5;
+}
+.right-side-warp h1 {
+  color: ;
+  font-size: 60px;
+}
+.right-side-warp span {
+	color: #ffce43;
+	margin: 10px;
+}
+.box-btn {
+  background-color: #ddd;
+  color: #333;
+  font-size: 17px;
+  font-weight: 400;
+  padding: 15px 50px;
+  border-radius: 20px;
+  margin-top: 100px;
+  display: inline-block;
+  opacity: .7;
+}
+.logo {
+  color: #fff;
+  position: relative;
+  z-index: 2;
+  margin: 85px 0;
+  text-align: center;
+}
+.logo::before {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 150px;
+  width: 150px;
+  content: "";
+  background: yellow;
+  z-index: -1;
+  opacity: .2;
+  margin-left: -75px;
+  margin-top: -75px;
+  border-radius: 50%;
+}
+.logo h1 {
+  font-family: Montserrat;
+  font-weight: 700;
+}
+.main-manu {
+	position: absolute;
+	left: 50%;
+	top: 40%;
+	margin-left: -73px;
+	margin-top: -50px;
+}
+.main-manu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.main-manu li {
+  display: block;
+  text-align: center;
+}
+.main-manu li a {
+	display: block;
+	color: #fff;
+	font-weight: 500;
+	font-size: 17px;
+	padding: 20px 0;
+	text-transform: uppercase;
+}
+.social-link {
+  position: absolute;
+  left: 30%;
+  bottom: 5%;
+  font-size: 20px;
+}
+.social-link a {
+  color: #fff;
+  display: inline-block;
+  padding: 5px;
+}
+.copyright-text {
+	position: absolute;
+	left: 20px;
+	bottom: 0;
+	color: #fff;
+	font-size: 18px;
+}
+
+
+
+
+
